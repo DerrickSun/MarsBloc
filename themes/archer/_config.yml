@@ -40,7 +40,7 @@ about:
 search:
   enable: false
   # Seach URL, must be set. For example: 'fi3ework.github.io'
-  url: 
+  url: https://derricksun.github.io/MarsBloc/
   # Search engine: 'bing' (default), 'google' or 'baidu'
   engine: bing
 # Display icons of friends, about and search
