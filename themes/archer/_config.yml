@@ -36,6 +36,8 @@ friends:
 about:
   enable: true
   image: '/intro/about-bg.jpg'
+nft: 
+  image: '/intro/404-bg.jpg'
 # Search for website
 search:
   enable: false
@@ -47,10 +49,11 @@ search:
 # You can only use free icons started with 'fab' and 'fas' by default
 # https://fontawesome.com/v5.15/icons?d=gallery&p=2&s=brands,solid&m=free
 profile_icons:
-  enable: false
+  enable: true
   friends: 'fas fa-heart'
   about: 'fas fa-id-card'
   search: 'fas fa-search'
+  nft: 'fas fa-cube'
 # Additional profile links
 profile_links:
   # - name: GOOGLE
@@ -71,7 +74,7 @@ SEO_keywords:
 # main title shown in header image
 main_title: Mars's Studio.
 # subtitle
-subtitle: it's better to burn out than to fade away
+subtitle: 著名哲学家夏洛克 "聊天记录也算图!?"
 # site haeder image
 site_header_image: '/intro/index-bg.jpg'
 # post haeder image

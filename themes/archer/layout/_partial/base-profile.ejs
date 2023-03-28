@@ -28,6 +28,14 @@
             <% } %>
         </div>
     <% } %>
+    <div class="profile-link-item">
+        <a href="<%- url_for("/nft") %>" class="about-me">
+            <% if(theme.profile_icons && !!theme.profile_icons.enable && theme.profile_icons.nft) { %>
+                <i class="<%- theme.profile_icons.nft %> profile-item-icon"></i>
+            <% } %>
+            数字藏品
+        </a>
+    </div>
     <% if(theme.about.enable) { %>
         <div class="profile-link-item">
             <a href="<%- url_for("/about") %>" class="about-me">

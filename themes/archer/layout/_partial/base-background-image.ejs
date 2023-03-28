@@ -12,6 +12,9 @@
     <!-- about页 -->
     <% } else if (page.layout === "about") { %>
         <% bgURL = theme.about.image || theme.site_header_image; %>
+    <!-- nft页-->
+    <% } else if (page.layout === "nft") { %>
+        <% bgURL = theme.nft.image || theme.site_header_image; %>
     <% } %>
     <div class="site-intro-placeholder"></div>
     <div class="site-intro-img" style="background-image: url(<%- url_for(bgURL) %>)"></div>
@@ -30,6 +33,9 @@
             <!-- about -->
             <% } else if(page.layout === "about" ) { %>
                 <%- page.title || 'About' %>
+            <!-- nft -->
+            <% } else if(page.layout === "nft" ) { %>
+                <%- page.title || '数字藏品' %>
             <% } %>
         </h1>
         <!-- 副标题 -->
