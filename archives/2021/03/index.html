@@ -21,7 +21,7 @@
     <meta name="description" content="">
     <meta property="og:type" content="website">
 <meta property="og:title" content="Hexo">
-<meta property="og:url" content="https://derricksun.github.io/MarsBloc/categories/%E5%AD%A6%E4%B9%A0/index.html">
+<meta property="og:url" content="https://derricksun.github.io/MarsBloc/archives/2021/03/index.html">
 <meta property="og:site_name" content="Hexo">
 <meta property="og:locale" content="en_US">
 <meta property="article:author" content="Mars">
@@ -428,79 +428,22 @@
             
         
         <article class="index-post">
-            <a class="abstract-title" href="/MarsBloc/%E5%A6%82%E4%BD%95%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/">
+            <a class="abstract-title" href="/MarsBloc/YYText%E7%9A%84%E4%BD%BF%E7%94%A8/">
                 
-                <span class="abstract-title-text">如何搭建博客</span>
+                <span class="abstract-title-text">YYText使用</span>
             </a>
             <div class="abstract-content">
-                背景搭建个人bloc，可以帮助我们记录平时学习到的内容，也可以分享自己所学到的知识。但是完整搭建博客，需要搭建前端页面和后端CI&#x2F;CD的技能，如何才能快速搭建一个个人博客呢？
-方案使用hexo框架来搭建和github action的CI&#x2F;CD能力
-实践hexo使用
-安装hexo
-1npm install -g hexo-cli
-初始化hexo项目
-12345678910111213141516hexo init &lt;folder&gt;//创建一个文章hexo new &lt;filename&gt;//创建一个pagehexo new page &lt;page...
+                背景在iOS开发中，经常遇到富文本内容的展示，虽然系统的NSAttributedString功能已经比较完善，但是比较缺乏定制化的内容，如果想自由度更高的显示富文本，可以尝试YYText这个框架。下面会对框架的使用进行简单的介绍。
+使用常用的富文本属性1.背景色块系统的AttributedString虽然也有背景色的属性设置，但是有时候需要色块加上圆角。就需要用到YYTextBorder
+
+1234567891011NSMutableAttributedString* str = [[NSMutableAttributedString alloc] initWithString:XX];...
             </div>
             <!-- read more -->
             
             <div class="abstract-post-meta">
                 <!-- date -->
                 <div class="abstract-date" title="Last updated: 2023/03/29">
-                    <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2023/03/28</span>
-                </div>
-                <!-- tags -->
-                
-            </div>
-        </article>
-        <div class="index-post-divider"></div>
-    
-        
-        
-        
-        
-            
-        
-        <article class="index-post">
-            <a class="abstract-title" href="/MarsBloc/%E5%A6%82%E4%BD%95%E7%BC%96%E5%86%99%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/">
-                
-                <span class="abstract-title-text">如何编写技术文档</span>
-            </a>
-            <div class="abstract-content">
-                为什么写(Why)团队价值
-保障质量：评审左移，提前暴露问题
-聚焦共识：形成一致的设计和目标
-技术资产：传承，促进团队
-技术文化：工程师文化
-
-各人价值
-更优设计：重新审视设计思路
-沟通成本
-
-如何写(How)类型
-需求文档
-运维文档
-开发设计文档
-复盘文档
-接入wd
-代码注释
-
-目标读者(Who )
-文档不是为自己而写
-不要假设读者跟你拥有相同的背景知识和技能eg: 
-说服决策者（1-pager文档）
-为开发提供接口使用说明（API文档）
-oncall查问题（oncall手册）
-
-开始写(do it)背景和边界  why
-TL:DR长文的摘要标题，显示内容的净化或总结
-背景为目标读者提...
-            </div>
-            <!-- read more -->
-            
-            <div class="abstract-post-meta">
-                <!-- date -->
-                <div class="abstract-date" title="Last updated: 2023/03/29">
-                    <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2022/03/27</span>
+                    <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2021/03/29</span>
                 </div>
                 <!-- tags -->
                 
