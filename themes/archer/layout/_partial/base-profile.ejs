@@ -36,6 +36,14 @@
             数字藏品
         </a>
     </div>
+    <div class="profile-link-item">
+        <a href="<%- url_for("/changelog") %>" class="about-me">
+            <% if(theme.profile_icons && !!theme.profile_icons.enable && theme.profile_icons.changelog) { %>
+                <i class="<%- theme.profile_icons.changelog %> profile-item-icon"></i>
+            <% } %>
+            站点日志
+        </a>
+    </div>
     <% if(theme.about.enable) { %>
         <div class="profile-link-item">
             <a href="<%- url_for("/about") %>" class="about-me">

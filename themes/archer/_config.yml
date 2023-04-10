@@ -38,6 +38,8 @@ about:
   image: '/intro/about-bg.jpg'
 nft: 
   image: '/intro/404-bg.jpg'
+changelog: 
+  image: '/intro/404-bg.jpg'
 # Search for website
 search:
   enable: false
@@ -54,6 +56,7 @@ profile_icons:
   about: 'fas fa-id-card'
   search: 'fas fa-search'
   nft: 'fas fa-cube'
+  changelog: 'fas fa-history'
 # Additional profile links
 profile_links:
   # - name: GOOGLE
